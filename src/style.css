@@ -1,0 +1,197 @@
+
+ 
+ .mainbody{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+ }
+
+ .wrap {
+    padding-top: 30px;
+
+ }
+ 
+ .search {
+    display: flex;
+    margin: auto;  
+    margin: auto;
+    justify-content: center;
+    }
+
+.widget{
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, .35);  
+    backdrop-filter: blur(5px);
+    display: flex;
+    width : 60vw;
+    height: 50vh;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.mainright {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.mainright-up {
+    display: flex;
+
+}
+
+.mainright-down {
+    display: flex;
+    align-self: center;
+}
+
+.search {
+    
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  .searchTerm {
+    height: 50px;
+    width: 30%;
+    /* border: 3px solid #00b4cc; */
+    border: none;
+    padding: 16px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, .35);  
+    backdrop-filter: blur(5px);
+  }
+  
+  .searchTerm:focus {
+    color: #00b4cc;
+  }
+
+  .searchButton {
+    height: 50px;
+    width: 80px;
+    border: none;
+    background: #048b9c;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  .searchButton:hover {
+    background-color: #17b8ce;
+  }
+
+  
+  .two-sided-section {
+    align-self: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    align-items: center;
+    
+  }
+  
+ .extra-info-leftside {
+    align-self: center;
+    text-align: left;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #000000;
+    font-size: 17px;
+  }
+  
+  .mainleft {
+    width:40%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainright-up {
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .weatherIcon {
+    height: 50%;
+    text-align: center;
+    justify-content: center;
+    
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .weatherCondition {
+  
+    
+   
+    align-self: center;
+    font-size: 50px;
+    color: #000000;
+    
+
+  }
+
+  .place {
+    
+    align-self: center;
+    font-size: 30px;
+    color: #000000;
+  }
+
+  .temperature {
+    width: 40%;
+    align-self: center;
+    color: #000000;
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }  
+
+  /* .temperature .temp {
+    margin-bottom: 10px;
+  } */
+
+  .date{
+    width: 60%;
+    align-self: center;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .mainright-down {
+    height: 40%;
+  justify-content: center;
+  }
+
+  .mainleft-up {
+    
+    align-self: center;
+    width: 100%;
+   
+    
+    
+  }
